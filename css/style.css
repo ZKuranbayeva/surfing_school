@@ -344,3 +344,38 @@ body{
     max-width: 115px;
     text-align: center;
 }
+
+.site-images{
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.reviews {
+    margin-bottom: 150px;
+}
+
+.reviews__top {
+    margin-bottom: 100px;
+}
+
+.reviews__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.reviews__title {
+}
+.reviews__items {
+}
+.reviews__item {
+}
+.reviews-img {
+}
+.blockquote {
+}
+.blockquote__text {
+}
+.blockquote-cite {
+}
+.blockquote-time {
+}
