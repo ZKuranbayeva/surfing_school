@@ -356,6 +356,7 @@ body{
 
 .reviews__top {
     margin-bottom: 100px;
+    margin-left: calc(50% + 10px);
 }
 
 .reviews__subtitle {
@@ -364,18 +365,41 @@ body{
     margin-bottom: 20px;
 }
 .reviews__title {
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 .reviews__items {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
 }
-.reviews__item {
+
+.reviews__item:nth-child(even){
+    padding-top: 100px;
 }
+
 .reviews-img {
+    margin-bottom: 20px;
+    max-width: 100%;
 }
 .blockquote {
+    margin: 0;
 }
+
 .blockquote__text {
+    margin-bottom: 15px;
 }
 .blockquote-cite {
+    display: block;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.blockquote-cite::before{
+    content: '/';
 }
 .blockquote-time {
+    display: block;
+    text-align: right;
 }
