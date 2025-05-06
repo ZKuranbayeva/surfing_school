@@ -137,7 +137,7 @@ body{
     margin-top: auto;
 }
 
-.header__social-list{
+.social-list{
     display: flex;
     gap: 20px;
 }
@@ -402,4 +402,37 @@ body{
 .blockquote-time {
     display: block;
     text-align: right;
+}
+
+.footer {
+    background-color: #2B2A29;
+}
+.footer__inner{
+    max-width: 1160px;
+}
+.footer__top {
+}
+.footer__title {
+}
+.footer__logo {
+}
+.footer__info {
+}
+.footer__info-list {
+}
+.footer__info-item {
+}
+.footer__bottom {
+}
+.social-list {
+}
+.social-item {
+}
+.social-link {
+}
+.footer__nav {
+}
+.footer__nav-item {
+}
+.footer__nav-link {
 }
