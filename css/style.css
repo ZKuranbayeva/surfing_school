@@ -512,6 +512,10 @@ body{
     .about__content{
         flex-basis: 50%;
     }
+    .reviews__top{
+        margin-left: 0;
+        margin-bottom: 75px;
+    }
 }
 
 @media (max-width:992px) {
@@ -562,8 +566,30 @@ body{
     .about__img{
         flex-basis: 100%;
     }
-    .about{
+    .about,
+    .site-images,
+    .activities{
         margin-bottom: 75px;
+    }
+    .activities__info{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .activities__title,
+    .activities__text{
+        flex-basis: 100%;
+    }
+    .activities__title{
+        font-size: 44px;
+    }
+    .reviews__items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:800px){
+    .activities__list{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -588,7 +614,17 @@ body{
     .about__title{
         font-size: 44px ;
     }
-    .about__subtitle{
+    .activities__title{
+        font-size: 36px;
+    }
+    .about__subtitle,
+    .activities__subtitle{
         margin-bottom: 10px;
+    }
+    .activities__list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .site-images{
+        display: none;
     }
 }
