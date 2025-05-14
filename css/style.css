@@ -78,6 +78,11 @@ body{
     gap: 40px;
 }
 
+.menu__item:hover{
+    color: #2B2A29;
+    transition: .3s;
+}
+
 .header__phone{
     display: flex;
     align-items: center;
@@ -86,6 +91,11 @@ body{
     padding: 10px 20px;
     border-radius: 30px;
     color: #fff;
+}
+
+.header__phone:hover{
+    background-color: #157AB3;
+    transition: .3s;
 }
 
 .title-img{
@@ -103,7 +113,7 @@ body{
     padding: 10px 20px;
     display: inline-block;
 }
-
+ 
 .header__content{
     display: flex;
     justify-content: space-between;
@@ -132,6 +142,11 @@ body{
     font-weight: 700;
 }
 
+.header__info-item:hover{
+    color: #fff;
+    background-color: #0A507A;
+    transition: .3s;
+}
 
 .header__social{
     margin-top: auto;
@@ -197,11 +212,25 @@ body{
     color: #fff;
 }
 
+.buttons-book:hover{
+    background-color: #fff;
+    color: #2B2A29;
+    transition: .3s;
+    border: 1px solid #2B2A29;
+}
+
 .header__buttons-activities{
     color: #2B2A29;
     background-color: rgba(255, 255, 255, .3);
     border: 1px solid #2B2A29;
 }
+
+.header__buttons-activities:hover{
+    background-color: #0A507A;
+    color: #fff;
+    transition: .3s;
+}
+
 
 @media (max-width: 1920px) {
     .header{
@@ -265,6 +294,13 @@ body{
     border-radius: 30px;
     padding: 10px 20px;
 }
+
+.about__item:hover{
+    background-color: #0A507A;
+    color: #fff;
+    transition: .3s;
+}
+
 .about__text {
     display: flex;
     flex-direction: column;
@@ -288,6 +324,11 @@ body{
     padding: 10px 20px;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, .3);
+}
+
+.about__link:hover{
+    background-color: #0A507A;
+    transition: .3s;
 }
 
 .activities {
@@ -337,6 +378,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.activities__item:hover{
+    background-color: #0A507A;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .activities__item h5{
